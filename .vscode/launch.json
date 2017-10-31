@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Coffee",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/src/index.coffee",
+      "cwd": "${workspaceRoot}/src/",
+      "outFiles": [
+        "${workspaceRoot}/lib/**/*.js"
+      ],
+      "sourceMaps": true,
+      "preLaunchTask": "npm: build"
+  }
+  ]
+}

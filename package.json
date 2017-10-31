@@ -1,0 +1,32 @@
+{
+  "name": "vscode-coffee-node",
+  "version": "1.0.0",
+  "description": "Get started with CoffeeScript 2 in 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w --require coffee-script/register \"test/**/*.test.coffee\"",
+    "start": "coffee src/index.coffee",
+    "build": "coffee -cm -o lib src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbo/vscode-coffee-node.git"
+  },
+  "keywords": [
+    "coffeescript",
+    "node",
+    "mocha",
+    "vscode"
+  ],
+  "author": "turbo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turbo/vscode-coffee-node/issues"
+  },
+  "homepage": "https://github.com/turbo/vscode-coffee-node#readme",
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
+}
